@@ -1,39 +1,66 @@
-# TEMPLATE ANDROID FMX / DELPHI / FIREMONKEY
+<!-- README ini dihasilkan otomatis oleh workflow .github/workflows/generate-readme.yml -->
+<!-- Jangan edit manual; perubahan akan ditim pada run berikutnya. -->
 
-> **Created by Antono**
+<h1 align="center">Project 👋</h1>
 
+<p align="center">
+  <strong></strong>
+</p>
 
-**NB :: DELETE IF ON USES ERROR, THAT BECAUSE I USES OTHER COMPONENT AND I FORGOT TO DELETE**
+<p align="center">
+  <a href="https://github.com/antono4/FMX_TemplateAndroid_Firemonkey"><img alt="GitHub repo" src="https://img.shields.io/badge/GitHub-antono4/FMX_TemplateAndroid_Firemonkey-blue?logo=github"></a>
+  <a href="https://antono4.github.io/FMX_TemplateAndroid_Firemonkey/"><img alt="Live Demo" src="https://img.shields.io/badge/Live%20Demo-Online-success?logo=githubpages"></a>
+  <img alt="Files" src="https://img.shields.io/badge/Files-63-informational">
+  <img alt="Updated" src="https://img.shields.io/badge/Updated-2026-08-13 13:20:10 WIB-lightgrey">
+</p>
 
-**HOW TO ADD NEW FRAME**
+---
 
-1. Add File "frTemp.pas" on directory "frames/frTemp.pas"
+## 📖 Tentang
 
-![alt text](https://github.com/dondonondon/FMX_TemplateAndroid_Firemonkey/blob/master/assets/img/1.png?raw=true)
+Repository **`FMX_TemplateAndroid_Firemonkey`** adalah situs web pribadi / portofolio yang diterbitkan melalui **GitHub Pages**. Situs utama berada di [`https://antono4.github.io/FMX_TemplateAndroid_Firemonkey/`](https://antono4.github.io/FMX_TemplateAndroid_Firemonkey/).
 
-2. Save as "frTemp.pas" (for example save as to "frHome.pas")
+## 🗂️ Struktur Proyek
 
-![alt text](https://github.com/dondonondon/FMX_TemplateAndroid_Firemonkey/blob/master/assets/img/2.png?raw=true)
+```
+FMX_TemplateAndroid_Firemonkey/
+├── index.html          # Halaman utama (landing / portofolio)
+├── assets/             # Aset statis (css, js, img, vendor)
+├── forms/               # Form handler (PHP)
+```
 
-3. Double Click frHome.pas then reName TFrame on properties (for example rename to FHome)
+## 🛠️ Teknologi
 
-![alt text](https://github.com/dondonondon/FMX_TemplateAndroid_Firemonkey/blob/master/assets/img/3.PNG?raw=true)
+Berdasarkan isi repository, proyek ini menggunakan:
 
-4. Open Code on frHome.pas / FHome. go to procedure setFrame. then change "fnGetClient(FMain, Temp);" to "fnGetClient(FMain, FHome);"
+- `HTML`
+- `CSS`
+- `JavaScript`
 
-![alt text](https://github.com/dondonondon/FMX_TemplateAndroid_Firemonkey/blob/master/assets/img/4.PNG?raw=true)
+> Total **63 file** terdeteksi di repository.
 
-5. Open "uMain.pas" on path sources then add const HOME = 'HOME'
+## 🚀 Menjalankan Secara Lokal
 
-![alt text](https://github.com/dondonondon/FMX_TemplateAndroid_Firemonkey/blob/master/assets/img/5.PNG?raw=true)
+Karena ini situs statis (HTML/CSS/JS/PHP), cukup buka `index.html` di browser, atau jalankan server lokal:
 
-6. Open "uGoFrame", then add uses "frHome.pas", after that add some code on procedure "createFrame" and "fnGetFrame(st, transFR : String);" Check Pict
+```bash
+# Tanpa dependency
+python3 -m http.server 8000
+# lalu buka http://localhost:8000
 
-![alt text](https://github.com/dondonondon/FMX_TemplateAndroid_Firemonkey/blob/master/assets/img/6.PNG?raw=true)
+# atau dengan PHP (untuk form handler di forms/)
+php -S localhost:8000
+```
 
-7. to call Frame FHome just use procedure like this (if Frame active is FLogin) "fnGoFrame(LOGIN, HOME);". Note :: Login is Frame Active and Home is showing the Frame.
+## 📬 Kontak
 
-![alt text](https://github.com/dondonondon/FMX_TemplateAndroid_Firemonkey/blob/master/assets/img/7.PNG?raw=true)
+- GitHub: [antono4](https://github.com/antono4)
+- Situs: [https://antono4.github.io/FMX_TemplateAndroid_Firemonkey/](https://antono4.github.io/FMX_TemplateAndroid_Firemonkey/)
 
+## 📄 Lisensi
 
+Lihat berkas [`LICENSE`](./LICENSE) untuk informasi lisensi.
 
+---
+
+<sub>README ini di-generate otomatis pada **2026-08-13 13:20:10 WIB** oleh GitHub Actions .</sub>
