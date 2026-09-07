@@ -1,2 +1,26 @@
-Last updated: 2026-09-07 12:58:55 WIB
-Last updated: 2026-09-07 13:06:16 WIB
+# FMX_TemplateAndroid_Firemonkey
+
+
+
+## 📋 Overview
+
+This repository contains **67 files** and is built with the following technologies:
+
+Not detected
+
+## 🚀 Quick Start
+
+## ✨ Features
+
+- 📝 Auto-generated documentation
+
+## 🛠️ Technologies
+
+Not detected
+
+## 📄 License
+
+MIT License
+
+---
+*Last updated: 2026-09-07 17:07:37 WIB*
